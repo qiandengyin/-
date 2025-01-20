@@ -1,0 +1,12 @@
+dependencies:
+  idf: '>=5.0'
+  led_strip:
+    version: ^2.5.3
+description: A library to control rgb matrix for keyboard
+issues: https://github.com/lijunru-hub/keyboard_rgb_matrix/issues
+repository: git://github.com/lijunru-hub/keyboard_rgb_matrix.git
+repository_info:
+  commit_sha: b0f35ed5be7645ce39cb8e50f45dda9e7d102485
+  path: .
+url: https://github.com/lijunru-hub/keyboard_rgb_matrix
+version: 0.1.2

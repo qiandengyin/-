@@ -1,0 +1,210 @@
+menu "rgb matrix"
+    config MATRIX_ROWS
+        int "Matrix Rows"
+        default 1
+
+    config MATRIX_COLS
+        int "Matrix Cols"
+        default 1
+
+    config MATRIX_LED_COUNT
+        int "Matrix LED Count"
+        default 1
+
+    config ENABLE_RGB_MATRIX_TYPING_HEATMAP
+        bool "Enable typing heatmap"
+        default n
+
+    config ENABLE_RGB_MATRIX_DIGITAL_RAIN
+        bool "Enable digital rain"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
+        bool "Enable solid reactive simple"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE
+        bool "Enable solid reactive"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_WIDE
+        bool "Enable solid reactive wide"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTIWIDE
+        bool "Enable solid reactive multiwide"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_CROSS
+        bool "Enable solid reactive cross"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTICROSS
+        bool "Enable solid reactive multicross"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS
+        bool "Enable solid reactive nexus"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
+        bool "Enable solid reactive multinexus"
+        default n
+
+    config ENABLE_RGB_MATRIX_SPLASH
+        bool "Enable splash"
+        default n
+
+    config ENABLE_RGB_MATRIX_MULTISPLASH
+        bool "Enable multisplash"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_SPLASH
+        bool "Enable solid splash"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS
+        bool "Enable solid reactive nexus"
+        default n
+
+    config ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
+        bool "Enable solid multisplash"
+        default n
+
+    config ENABLE_RGB_MATRIX_ALPHAS_MODS
+        bool "Enable alphas mods"
+        default n
+
+    config ENABLE_RGB_MATRIX_BREATHING
+        bool "Enable breathing"
+        default n
+
+    config ENABLE_RGB_MATRIX_BAND_PINWHEEL_SAT
+        bool "Enable band pinwheel saturation"
+        default n
+
+    config ENABLE_RGB_MATRIX_BAND_PINWHEEL_VAL
+        bool "Enable band pinwheel value"
+        default n
+
+    config ENABLE_RGB_MATRIX_BAND_SAT
+        bool "Enable band saturation"
+        default n
+
+    config ENABLE_RGB_MATRIX_BAND_SPIRAL_SAT
+        bool "Enable band spiral saturation"
+        default n
+
+    config ENABLE_RGB_MATRIX_BAND_SPIRAL_VAL
+        bool "Enable band spiral value"
+        default n
+
+    config ENABLE_RGB_MATRIX_BAND_VAL
+        bool "Enable band value"
+        default n
+
+    config ENABLE_RGB_MATRIX_CYCLE_ALL
+        bool "Enable cycle all"
+        default n
+
+    config ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
+        bool "Enable cycle left right"
+        default n
+
+    config ENABLE_RGB_MATRIX_CYCLE_OUT_IN
+        bool "Enable cycle out in"
+        default n
+
+    config ENABLE_RGB_MATRIX_CYCLE_OUT_IN_DUAL
+        bool "Enable cycle out in dual"
+        default n
+
+    config ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
+        bool "Enable cycle pinwheel"
+        default n
+
+    config ENABLE_RGB_MATRIX_CYCLE_SPIRAL
+        bool "Enable cycle spiral"
+        default n
+
+    config ENABLE_RGB_MATRIX_CYCLE_UP_DOWN
+        bool "Enable cycle up down"
+        default n
+
+    config ENABLE_RGB_MATRIX_DUAL_BEACON
+        bool "Enable dual beacon"
+        default n
+
+    config ENABLE_RGB_MATRIX_FLOWER_BLOOMING
+        bool "Enable flower blooming"
+        default n
+
+    config ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
+        bool "Enable gradient left right"
+        default n
+
+    config ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
+        bool "Enable gradient up down"
+        default n
+
+    config ENABLE_RGB_MATRIX_HUE_BREATHING
+        bool "Enable hue breathing"
+        default n
+
+    config ENABLE_RGB_MATRIX_HUE_PENDULUM
+        bool "Enable hue pendulum"
+        default n
+
+    config ENABLE_RGB_MATRIX_HUE_WAVE
+        bool "Enable hue wave"
+        default n
+
+    config ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
+        bool "Enable jellybean raindrops"
+        default n
+
+    config ENABLE_RGB_MATRIX_PIXEL_FLOW
+        bool "Enable pixel flow"
+        default n
+
+    config ENABLE_RGB_MATRIX_PIXEL_FRACTAL
+        bool "Enable pixel fractal"
+        default n
+
+    config ENABLE_RGB_MATRIX_PIXEL_RAIN
+        bool "Enable pixel rain"
+        default n
+
+    config ENABLE_RGB_MATRIX_RAINBOW_BEACON
+        bool "Enable rainbow beacon"
+        default n
+
+    config ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+        bool "Enable rainbow moving chevron"
+        default n
+
+    config ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
+        bool "Enable rainbow pinwheels"
+        default n
+
+    config ENABLE_RGB_MATRIX_RAINDROPS
+        bool "Enable raindrops"
+        default n
+
+    config ENABLE_RGB_MATRIX_RIVERFLOW
+        bool "Enable riverflow"
+        default n
+
+    config ENABLE_RGB_MATRIX_STARLIGHT
+        bool "Enable starlight"
+        default n
+
+    config ENABLE_RGB_MATRIX_STARLIGHT_DUAL_HUE
+        bool "Enable starlight dual hue"
+        default n
+
+    config ENABLE_RGB_MATRIX_STARLIGHT_DUAL_SAT
+        bool "Enable starlight dual saturation"
+        default n
+
+endmenu
